@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>
+        eVENTS IN JQUERY
+    </H1>
+    <P>MOUSE EVENTS= CLICK() , MOUSE ENTER() , MOUSE LEAVE() ,DOUBLECLICK()</P>
+    <P>keyword EVENTS= KEYPRESS ,DOWN , UP ()</P>
+    <P>FORM EVENTS = SUBMITCHECK FOCUS BLUR</P>
+    <P>WINDOWS SCROLL RELOAD RESIZE UNLOAD</P>
+
+    <button id="button">Toggle now</button>
+    <div id="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse ipsa sunt ducimus inventore
+        laboriosam odio cum ipsam minima perspiciatis iste velit, animi, doloremque quas! Quisquam totam blanditiis
+        voluptates sint!
+        Assumenda voluptatem eos repellendus ad harum excepturi, incidunt reprehenderit nostrum maiores animi quis atque
+        architecto suscipit vitae. Eaque vero iure odio ab laboriosam facilis a odit possimus, consequuntur quos harum.
+    </div>
+    <hr>
+    <form action="#">
+        <label for="name">name</label>
+        <input type="text" id="name" placeholder="name" value="vaibhav">
+    </form>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    //animation function
+    $('#lorem').animate({
+        opacity:0.3,
+        height:'25px',
+        width:'2000px'
+    },2000)
+</script>
+</html>
